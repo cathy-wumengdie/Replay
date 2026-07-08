@@ -1,6 +1,6 @@
 # Architecture Decision Records
 
-This log records significant design decisions for Conductor, along with the alternatives
+This log records significant design decisions for Replay, along with the alternatives
 that were considered and rejected. Each ADR captures the context, the decision, and the
 reasoning at the time it was made.
 

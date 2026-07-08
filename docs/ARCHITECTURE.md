@@ -1,6 +1,6 @@
 # Architecture
 
-Conductor is a platform for executing long-running AI agent workflows reliably. This
+Replay is a platform for executing long-running AI agent workflows reliably. This
 document describes the runtime's structure and its defining behaviour: crash survival by
 event replay.
 
@@ -114,7 +114,7 @@ AI agent workloads violate all three assumptions.
 | Output is a value | Output is a stream, plus token usage and cost |
 
 A generic runner that retries a half-finished 40-minute workflow from the beginning would
-re-send emails, re-charge cards, and re-burn tokens. Conductor's event-sourced model exists
+re-send emails, re-charge cards, and re-burn tokens. Replay's event-sourced model exists
 precisely to make **resume, not restart**, the default.
 
 ## Design principles

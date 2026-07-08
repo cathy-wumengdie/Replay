@@ -1,4 +1,4 @@
-# Conductor
+# Replay
 
 **A durable execution platform for long-running AI agent workflows.**
 
@@ -26,7 +26,7 @@ is a lost workflow and — worse — duplicated side effects on retry.
 
 Making those workflows reliable is not an AI problem; it is a distributed-systems problem,
 drawing on event sourcing, scheduling, idempotency, isolation, and cloud infrastructure.
-Conductor solves that class of problem so a workflow author can focus on agent logic rather
+Replay solves that class of problem so a workflow author can focus on agent logic rather
 than execution machinery.
 
 ## Core mechanism: crash survival by replay
