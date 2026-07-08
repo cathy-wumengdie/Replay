@@ -4,6 +4,10 @@ The hard, differentiating work is sequenced first, while motivation is highest. 
 observability polish come last, where scope can safely be trimmed. Each phase is
 independently demonstrable.
 
+> The phase-level plan below is broken down into concrete, 2-8h issues in
+> [BACKLOG.md](BACKLOG.md), which mirrors the [GitHub Issues](https://github.com/cathy-wumengdie/Replay/issues)
+> and [Milestones](https://github.com/cathy-wumengdie/Replay/milestones) (M0–M5).
+
 ## Phases
 
 | Phase | Goal | Demonstrates |
